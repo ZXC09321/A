@@ -94,7 +94,11 @@ end)
 Chann1:Button("-#4 Blox Fruit! (ChestFarm)", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Cesare0328/my-scripts/main/fxss%20bf.lua"))()
+getgenv().AutoChest = false
+getgenv().ServerHop = false
+getgenv().WaitTime = 35
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nHieu1302/luascript/main/AutoFarmChest.lua"))()
+
 
 end)
 
