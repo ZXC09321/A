@@ -94,7 +94,7 @@ end)
 Chann1:Button("-#4 Blox Fruit! (ChestFarm)", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cesare0328/my-scripts/main/fxss%20bf.lua"))()
 
 end)
 
