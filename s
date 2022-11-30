@@ -4,7 +4,7 @@ local Win1 = DiscordLib:Window("RBS")
 
 local Tab1 = Win1:Server("V.10", "")
 
-local Chann1 = Tab1:Channel("[G] General Script")
+local Chann1 = Tab1:Channel("[📃] General Script")
 
 Chann1:Button("-#1 Noclip - B TOOLS!", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
@@ -43,7 +43,7 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/ZXC09321/8fc7b2f6b1e
 
 end)
 
-local Chann1 = Tab1:Channel("[S] Script HUB")
+local Chann1 = Tab1:Channel("[📃] Script HUB")
 
 Chann1:Button("-#1 OwlHub!", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
@@ -67,46 +67,40 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/
 
 end)
 
-local Chann1 = Tab1:Channel("[B] Blox Fruit!")
+local Chann1 = Tab1:Channel("[📃] Blox Fruit!")
 
-Chann1:Button("-#1 Blox Fruit (key systeam)!", function()
+Chann1:Button("-#1 Blox Fruit!(key systeam)", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 
 end)
 
-Chann1:Button("-#2 Blox Fruit (key systeam)!", function()
+Chann1:Button("-#2 Blox Fruit!(key systeam)", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
 
 end)
 
-Chann1:Button("-#3 Blox Fruit (NOT key systeam)!", function()
+Chann1:Button("-#3 Blox Fruit!(No key systeam)", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
     
 loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
     
 end)
 
-Chann1:Button("-#4 Blox Fruit (key systeam)!", function()
-DiscordLib:Notification("Notification", "The script is working(Android-Pc)", "Okay!")
-    
-loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-    
-end)
 
-Chann1:Button("-#5 Blox Fruit (ChestFarm)!", function()
-DiscordLib:Notification("Notification", "The script is working "Okay!")
-    
+Chann1:Button("-#4 Blox Fruit! (ChestFarm)", function()
+DiscordLib:Notification("Notification", "The script is working", "Okay!")
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm"))()
 
 end)
 
-Chann1:Button("-#6 Blox Fruit (ChestFarm (GUI))!", function()
-DiscordLib:Notification("Notification", "The script is working "Okay!")
-    
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoapoytv/Hoapoytv/main/NPTXHUBTPCHESTUPDATE.txt"))();    
+Chann1:Button("-#5 Blox Fruit! (ChestFarm(GUI))", function()
+DiscordLib:Notification("Notification", "The script is working", "Okay!")
+
+
 
 end)
