@@ -91,13 +91,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2')
 end)
 
 
-Chann1:Button("-#4 Blox Fruit! (ChestFarm)", function()
+Chann1:Button("-#4 Blox Fruit! (ChestFarm+)", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
-getgenv().AutoChest = false
-getgenv().ServerHop = false
-getgenv().WaitTime = 35
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nHieu1302/luascript/main/AutoFarmChest.lua"))()
+_G.AutoConfetti = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Confetti"))()
 
 
 end)
