@@ -90,8 +90,15 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2')
     
 end)
 
+Chann1:Button("-#4 Blox Fruit! (AutoFarmChes)", function()
+DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
-Chann1:Button("-#4 Blox Fruit! (ChestFarm+)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/chestfarm"))()
+
+
+end)
+
+Chann1:Button("-#5 Blox Fruit! (ConfitiFarm)", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
 _G.AutoConfetti = true
@@ -100,7 +107,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/ma
 
 end)
 
-Chann1:Button("-#5 Blox Fruit! (ChestFarm(GUI))", function()
+Chann1:Button("-#6 Blox Fruit! (AutoFarmChest(GUI))", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nHieu1302/luascript/main/AutoFarmChest.lua"))()
