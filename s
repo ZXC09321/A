@@ -90,7 +90,14 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2')
     
 end)
 
-Chann1:Button("-#4 Blox Fruit! (AutoFarmChes)", function()
+Chann1:Button("-#4 Blox Fruit!(key systeam(HOHO HUB))", function()
+DiscordLib:Notification("Notification", "The script is working", "Okay!")
+    
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    
+end)
+
+Chann1:Button("-#5 Blox Fruit! (AutoFarmChes)", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm"))()
