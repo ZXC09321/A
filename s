@@ -76,7 +76,7 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main
 
 end)
 
-Chann1:Button("-#2 Blox Fruit!(key systeam)", function()
+Chann1:Button("-#2 Blox Fruit!(No key systeam)", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
