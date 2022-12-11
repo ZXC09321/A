@@ -105,71 +105,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/ma
 
 end)
 
-Chann1:Button("-#5 Blox Fruit! (ConfitiFarm)", function()
-DiscordLib:Notification("Notification", "The script is working", "Okay!")
-
-_G.AutoConfetti = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Confetti"))()
-
-
-end)
-
 Chann1:Button("-#6 Blox Fruit! (AutoFarmChest(GUI))", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nHieu1302/luascript/main/AutoFarmChest.lua"))()
-
-end)
-
-Chann1:Button("-#7 Blox Fruit! (FarmFruit)", function()
-DiscordLib:Notification("Notification", "The script is working", "Okay!")
-
-Settings = {
-AutoTeam = "Marines", -- Pirates or Marines
-AutoEat = true, -- true or false
-AutoBuyRandomFruit = true, -- true or false
-AutoStore = true, -- true or false
-ContinueHopAfterStoredFruit = true, -- true or false
-WebhURL = "https://discord.com/api/webhooks/1049701718201470997/3LNJyAH5sRplv-5e1R_UaJcPhwv8nAHH_-iG6I20TTVtbuuxD5YsckxmmHV9TzMChgla", --Put your webhook links in here
-WebhPingEveryone = true, -- true or false
-WantedFruits = {
-    "Kilo Fruit",
-    "Spin Fruit",
-    "Chop Fruit",
-    "Spring Fruit",
-    "Bomb Fruit",
-    "Smoke Fruit",
-    "Spike Fruit",
-    "Flame Fruit",
-    "Falcon Fruit",
-    "Ice Fruit",
-    "Sand Fruit",
-    "Dark Fruit",
-    "Revive Fruit",
-    "Diamond Fruit",
-    "Light Fruit",
-    "Love Fruit",
-    "Rubber Fruit",
-    "Barrier Fruit",
-    "Magma Fruit",
-    "Door Fruit",
-    "Quake Fruit",
-    "Buddha Fruit",
-    "String Fruit",
-    "Phoenix Fruit",
-    "Rumble Fruit",
-    "Paw Fruit",
-    "Gravity Fruit",
-    "Dough Fruit",
-    "Shadow Fruit",
-    "Venom Fruit",
-    "Control Fruit",
-    "Soul Fruit",
-    "Dragon Fruit",
-    "Leopard Fruit"
-    --List of fruits, delete fruits that you don't want
-}
-}
-loadstring(game:HttpGetAsync("https://visionhub.dev/loader.lua"))()
 
 end)
