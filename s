@@ -90,7 +90,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2')
     
 end)
 
-Chann1:Button("-#4 Blox Fruit!(key systeam(HOHO HUB))", function()
+Chann1:Button("-#4 Blox Fruit!(key systeam-HOHO HUB-(There is an old version without a key))", function()
 DiscordLib:Notification("Notification", "The script is working", "Okay!")
     
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
